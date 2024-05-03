@@ -94,7 +94,7 @@ int main() {
   if(lotto_type = 1){
       for(i=0;i<4;i++){
           for(j=0;j<7;j++){
-              if(j==0) {pension[i][j] = random%4 + 1};
+              if(j==0) {pension[i][j] = random%5 + 1};
               else {pension[i][j] = random%10};
           }
       }
